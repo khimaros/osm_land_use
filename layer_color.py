@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import sys
 
 DEFAULT_COLOR = "255 255 255 0"
 
-SMA_COLOR_MAP = {
+LAYER_COLOR_MAP = {
 	"BLM":   "255 0 0 255",
 	"USFS":  "0 255 0 255",
 	"NPS":   "0 0 255 255",
@@ -12,6 +12,6 @@ SMA_COLOR_MAP = {
 	"STATE": "255 0 255 255",
 }
 
-agency = sys.argv[1]
+layer = sys.argv[1]
 
-print(SMA_COLOR_MAP.get(agency, DEFAULT_COLOR))
+print(LAYER_COLOR_MAP.get(layer, DEFAULT_COLOR))
