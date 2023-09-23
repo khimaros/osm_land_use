@@ -4,7 +4,7 @@ create an OpenStreetMaps (OSMAnd) compatible SQLite map from the BLM Surface Man
 
 ## USAGE
 
-install dependencies (assumes Debian):
+install dependencies (assumes Debian Trixie):
 
 ```shell
 make install-system-deps

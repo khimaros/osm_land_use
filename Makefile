@@ -69,6 +69,9 @@ install-system-deps:
 	sudo apt install python3-gdal gdal-bin
 .PHONY: install-system-deps
 
+download: $(MAP_NAME).gdb.zip
+.PHONY: download
+
 clean:
 	rm -rf *.tif *.vrt *.sqlitedb *.obf *.tiles *.osmand *.osmand.zip
 .PHONY: clean
